@@ -1,0 +1,316 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "C10BarterXMVP11AppDelegate"
+provides-member:
+- ["C10BarterXMVP11AppDelegate", ""]
+provides-dynamic-lookup:
+- "applicationWillTerminate"
+- "applicationWillResignActive"
+- "applicationDidBecomeActive"
+- "window"
+- "applicationWillEnterForeground"
+- "application"
+- "applicationDidEnterBackground"
+depends-top-level:
+- "AppDelegate"
+- "UIApplication"
+- "UIWindow"
+- "UIResponder"
+- !private "PFAnalytics"
+- "UIApplicationDelegate"
+- !private "BooleanLiteralType"
+- "Bool"
+- "AnyObject"
+- !private "Parse"
+- !private "StringLiteralType"
+- "NSObject"
+depends-member:
+- !private ["PSs9AnyObject", "PFAnalytics"]
+- !private ["PSs9AnyObject", "Parse"]
+- ["PSs9AnyObject", "application"]
+- ["PSs9AnyObject", "applicationDidBecomeActive"]
+- ["PSs9AnyObject", "applicationDidEnterBackground"]
+- ["PSs9AnyObject", "applicationDidFinishLaunching"]
+- ["PSs9AnyObject", "applicationDidReceiveMemoryWarning"]
+- ["PSs9AnyObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs9AnyObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs9AnyObject", "applicationShouldRequestHealthAuthorization"]
+- ["PSs9AnyObject", "applicationSignificantTimeChange"]
+- ["PSs9AnyObject", "applicationWillEnterForeground"]
+- ["PSs9AnyObject", "applicationWillResignActive"]
+- ["PSs9AnyObject", "applicationWillTerminate"]
+- !private ["PSs9AnyObject", "enableLocalDatastore"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "setApplicationId"]
+- !private ["PSs9AnyObject", "trackAppOpenedWithLaunchOptionsInBackground"]
+- ["PSs9AnyObject", "window"]
+- ["PSs9AnyObject", ""]
+- ["C10BarterXMVP11AppDelegate", "AnyObject"]
+- ["C10BarterXMVP11AppDelegate", "Bool"]
+- ["C10BarterXMVP11AppDelegate", "NSObject"]
+- !private ["C10BarterXMVP11AppDelegate", "PFAnalytics"]
+- !private ["C10BarterXMVP11AppDelegate", "Parse"]
+- ["C10BarterXMVP11AppDelegate", "UIApplication"]
+- ["C10BarterXMVP11AppDelegate", "UIWindow"]
+- ["C10BarterXMVP11AppDelegate", "application"]
+- ["C10BarterXMVP11AppDelegate", "applicationDidBecomeActive"]
+- ["C10BarterXMVP11AppDelegate", "applicationDidEnterBackground"]
+- ["C10BarterXMVP11AppDelegate", "applicationDidFinishLaunching"]
+- ["C10BarterXMVP11AppDelegate", "applicationDidReceiveMemoryWarning"]
+- ["C10BarterXMVP11AppDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["C10BarterXMVP11AppDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["C10BarterXMVP11AppDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["C10BarterXMVP11AppDelegate", "applicationSignificantTimeChange"]
+- ["C10BarterXMVP11AppDelegate", "applicationWillEnterForeground"]
+- ["C10BarterXMVP11AppDelegate", "applicationWillResignActive"]
+- ["C10BarterXMVP11AppDelegate", "applicationWillTerminate"]
+- ["C10BarterXMVP11AppDelegate", "deinit"]
+- ["C10BarterXMVP11AppDelegate", "init"]
+- ["C10BarterXMVP11AppDelegate", "window"]
+- !private ["PSs11CVarArgType", "PFAnalytics"]
+- !private ["PSs11CVarArgType", "Parse"]
+- ["PSs11CVarArgType", "application"]
+- ["PSs11CVarArgType", "applicationDidBecomeActive"]
+- ["PSs11CVarArgType", "applicationDidEnterBackground"]
+- ["PSs11CVarArgType", "applicationDidFinishLaunching"]
+- ["PSs11CVarArgType", "applicationDidReceiveMemoryWarning"]
+- ["PSs11CVarArgType", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs11CVarArgType", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs11CVarArgType", "applicationShouldRequestHealthAuthorization"]
+- ["PSs11CVarArgType", "applicationSignificantTimeChange"]
+- ["PSs11CVarArgType", "applicationWillEnterForeground"]
+- ["PSs11CVarArgType", "applicationWillResignActive"]
+- ["PSs11CVarArgType", "applicationWillTerminate"]
+- !private ["PSs11CVarArgType", "enableLocalDatastore"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "setApplicationId"]
+- !private ["PSs11CVarArgType", "trackAppOpenedWithLaunchOptionsInBackground"]
+- ["PSs11CVarArgType", "window"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "PFAnalytics"]
+- !private ["PSs23CustomStringConvertible", "Parse"]
+- ["PSs23CustomStringConvertible", "application"]
+- ["PSs23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["PSs23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["PSs23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["PSs23CustomStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["PSs23CustomStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs23CustomStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs23CustomStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["PSs23CustomStringConvertible", "applicationSignificantTimeChange"]
+- ["PSs23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["PSs23CustomStringConvertible", "applicationWillResignActive"]
+- ["PSs23CustomStringConvertible", "applicationWillTerminate"]
+- !private ["PSs23CustomStringConvertible", "enableLocalDatastore"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "setApplicationId"]
+- !private ["PSs23CustomStringConvertible", "trackAppOpenedWithLaunchOptionsInBackground"]
+- ["PSs23CustomStringConvertible", "window"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "PFAnalytics"]
+- !private ["PSs9Equatable", "Parse"]
+- ["PSs9Equatable", "application"]
+- ["PSs9Equatable", "applicationDidBecomeActive"]
+- ["PSs9Equatable", "applicationDidEnterBackground"]
+- ["PSs9Equatable", "applicationDidFinishLaunching"]
+- ["PSs9Equatable", "applicationDidReceiveMemoryWarning"]
+- ["PSs9Equatable", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs9Equatable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs9Equatable", "applicationShouldRequestHealthAuthorization"]
+- ["PSs9Equatable", "applicationSignificantTimeChange"]
+- ["PSs9Equatable", "applicationWillEnterForeground"]
+- ["PSs9Equatable", "applicationWillResignActive"]
+- ["PSs9Equatable", "applicationWillTerminate"]
+- !private ["PSs9Equatable", "enableLocalDatastore"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "setApplicationId"]
+- !private ["PSs9Equatable", "trackAppOpenedWithLaunchOptionsInBackground"]
+- ["PSs9Equatable", "window"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "PFAnalytics"]
+- !private ["PSs8Hashable", "Parse"]
+- ["PSs8Hashable", "application"]
+- ["PSs8Hashable", "applicationDidBecomeActive"]
+- ["PSs8Hashable", "applicationDidEnterBackground"]
+- ["PSs8Hashable", "applicationDidFinishLaunching"]
+- ["PSs8Hashable", "applicationDidReceiveMemoryWarning"]
+- ["PSs8Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs8Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs8Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["PSs8Hashable", "applicationSignificantTimeChange"]
+- ["PSs8Hashable", "applicationWillEnterForeground"]
+- ["PSs8Hashable", "applicationWillResignActive"]
+- ["PSs8Hashable", "applicationWillTerminate"]
+- !private ["PSs8Hashable", "enableLocalDatastore"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "setApplicationId"]
+- !private ["PSs8Hashable", "trackAppOpenedWithLaunchOptionsInBackground"]
+- ["PSs8Hashable", "window"]
+- ["PSs8Hashable", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "NSObject"]
+- !private ["CSo8NSObject", "PFAnalytics"]
+- !private ["CSo8NSObject", "Parse"]
+- ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIWindow"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidReceiveMemoryWarning"]
+- ["CSo8NSObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo8NSObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo8NSObject", "applicationShouldRequestHealthAuthorization"]
+- ["CSo8NSObject", "applicationSignificantTimeChange"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- !private ["CSo8NSObject", "enableLocalDatastore"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "setApplicationId"]
+- !private ["CSo8NSObject", "trackAppOpenedWithLaunchOptionsInBackground"]
+- ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "PFAnalytics"]
+- !private ["PSo16NSObjectProtocol", "Parse"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo16NSObjectProtocol", "applicationShouldRequestHealthAuthorization"]
+- ["PSo16NSObjectProtocol", "applicationSignificantTimeChange"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- !private ["PSo16NSObjectProtocol", "enableLocalDatastore"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "setApplicationId"]
+- !private ["PSo16NSObjectProtocol", "trackAppOpenedWithLaunchOptionsInBackground"]
+- ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo11PFAnalytics", "trackAppOpenedWithLaunchOptionsInBackground"]
+- !private ["CSo5Parse", "enableLocalDatastore"]
+- !private ["CSo5Parse", "setApplicationId"]
+- !private ["PSo21UIApplicationDelegate", "PFAnalytics"]
+- !private ["PSo21UIApplicationDelegate", "Parse"]
+- ["PSo21UIApplicationDelegate", "application"]
+- ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
+- ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
+- ["PSo21UIApplicationDelegate", "applicationDidFinishLaunching"]
+- ["PSo21UIApplicationDelegate", "applicationDidReceiveMemoryWarning"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo21UIApplicationDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo21UIApplicationDelegate", "applicationSignificantTimeChange"]
+- ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
+- ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
+- ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- ["PSo21UIApplicationDelegate", "window"]
+- ["PSo21UIApplicationDelegate", ""]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "NSObject"]
+- !private ["CSo11UIResponder", "PFAnalytics"]
+- !private ["CSo11UIResponder", "Parse"]
+- ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UIWindow"]
+- ["CSo11UIResponder", "application"]
+- ["CSo11UIResponder", "applicationDidBecomeActive"]
+- ["CSo11UIResponder", "applicationDidEnterBackground"]
+- ["CSo11UIResponder", "applicationDidFinishLaunching"]
+- ["CSo11UIResponder", "applicationDidReceiveMemoryWarning"]
+- ["CSo11UIResponder", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo11UIResponder", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo11UIResponder", "applicationShouldRequestHealthAuthorization"]
+- ["CSo11UIResponder", "applicationSignificantTimeChange"]
+- ["CSo11UIResponder", "applicationWillEnterForeground"]
+- ["CSo11UIResponder", "applicationWillResignActive"]
+- ["CSo11UIResponder", "applicationWillTerminate"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "window"]
+- ["CSo11UIResponder", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "C10BarterXMVP11AppDelegate"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo11PFAnalytics"
+- !private "CSo5Parse"
+- "PSo21UIApplicationDelegate"
+- "CSo11UIResponder"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/BarterXMVP/BarterXMVP-Bridging-Header.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTask.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFDefines.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Bolts.framework/Modules/module.modulemap"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPurchase.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFProduct.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPush.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFInstallation.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFSession.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFRole.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFRelation.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFQuery.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFFile.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFConfig.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFCloud.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUser.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFConstants.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFNullability.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFACL.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/Parse.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/Parse-umbrella.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/Parse.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/ParseUI.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFTableViewCell.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFPurchaseTableViewCell.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFCollectionViewCell.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFTextField.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFImageView.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFProductTableViewController.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFQueryCollectionViewController.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFQueryTableViewController.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFSignUpViewController.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFSignUpView.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFLogInViewController.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFLogInView_Private.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/ParseUIConstants.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFLogInView.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/ParseUI-umbrella.h"
+- "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/DerivedData/BarterXMVP/Build/Products/Debug-iphonesimulator/ParseUI.framework/Modules/module.modulemap"
+interface-hash: "3b1756543acb3b03d2bea19129483730"
