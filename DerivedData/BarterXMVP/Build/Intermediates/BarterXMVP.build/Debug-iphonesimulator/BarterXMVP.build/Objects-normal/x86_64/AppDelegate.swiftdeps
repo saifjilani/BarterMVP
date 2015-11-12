@@ -6,26 +6,26 @@ provides-nominal:
 provides-member:
 - ["C10BarterXMVP11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillTerminate"
-- "applicationWillResignActive"
-- "applicationDidBecomeActive"
-- "window"
-- "applicationWillEnterForeground"
-- "application"
 - "applicationDidEnterBackground"
+- "application"
+- "applicationWillEnterForeground"
+- "applicationDidBecomeActive"
+- "applicationWillResignActive"
+- "window"
+- "applicationWillTerminate"
 depends-top-level:
-- "AppDelegate"
-- "UIApplication"
-- "UIWindow"
-- "UIResponder"
-- !private "PFAnalytics"
-- "UIApplicationDelegate"
-- !private "BooleanLiteralType"
 - "Bool"
 - "AnyObject"
+- !private "PFAnalytics"
+- !private "BooleanLiteralType"
+- "AppDelegate"
+- "UIWindow"
+- "UIApplication"
 - !private "Parse"
-- !private "StringLiteralType"
+- "UIResponder"
 - "NSObject"
+- "UIApplicationDelegate"
+- !private "StringLiteralType"
 depends-member:
 - !private ["PSs9AnyObject", "PFAnalytics"]
 - !private ["PSs9AnyObject", "Parse"]

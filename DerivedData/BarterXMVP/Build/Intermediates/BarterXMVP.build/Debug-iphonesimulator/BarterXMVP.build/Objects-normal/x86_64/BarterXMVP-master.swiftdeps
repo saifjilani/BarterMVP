@@ -1,6 +1,7 @@
 version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
 options: "cfaec0cc460e381335f06d81f3396f4b"
-build_time: [500681924, 852560000]
+build_time: [500683665, 45464000]
 inputs:
-  "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/BarterXMVP/ViewController.swift": [500681898, 0]
-  "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/BarterXMVP/AppDelegate.swift": [500681918, 0]
+  "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/BarterXMVP/LoginViewController.swift": [500683664, 0]
+  "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/BarterXMVP/ViewController.swift": [500683415, 0]
+  "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/BarterXMVP/AppDelegate.swift": [500681947, 0]
