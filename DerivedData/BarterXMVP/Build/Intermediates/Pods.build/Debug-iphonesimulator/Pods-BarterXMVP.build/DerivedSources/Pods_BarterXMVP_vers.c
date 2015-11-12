@@ -1,1 +1,0 @@
- const unsigned char Pods_BarterXMVPVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_BarterXMVP  PROJECT:Pods-1" "\n"; const double Pods_BarterXMVPVersionNumber __attribute__ ((used)) = (double)1.;

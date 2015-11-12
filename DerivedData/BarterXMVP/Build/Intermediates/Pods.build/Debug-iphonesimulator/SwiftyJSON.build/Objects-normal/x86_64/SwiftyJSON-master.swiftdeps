@@ -1,5 +1,0 @@
-version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
-options: "80c03363faa26cc12b2383ea640ed2eb"
-build_time: [500681747, 808453000]
-inputs:
-  "/Users/saifjilani/Desktop/Work/Computer Science/iOS/BarterXMVP/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [500681245, 0]
