@@ -87,7 +87,6 @@ typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
-@import ParseUI;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -108,29 +107,8 @@ SWIFT_CLASS("_TtC10BarterXMVP11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class PFLogInViewController;
-@class PFUser;
-@class NSError;
-@class PFSignUpViewController;
 @class NSBundle;
 @class NSCoder;
-
-SWIFT_CLASS("_TtC10BarterXMVP18RootViewController")
-@interface RootViewController : UIViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
-- (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
-- (void)loginSetup;
-- (BOOL)logInViewController:(PFLogInViewController * __nonnull)logInController shouldBeginLogInWithUsername:(NSString * __nonnull)username password:(NSString * __nonnull)password;
-- (void)logInViewController:(PFLogInViewController * __nonnull)logInController didLogInUser:(PFUser * __nonnull)user;
-- (void)logInViewController:(PFLogInViewController * __nonnull)logInController didFailToLogInWithError:(NSError * __nullable)error;
-- (void)signUpViewController:(PFSignUpViewController * __nonnull)signUpController didSignUpUser:(PFUser * __nonnull)user;
-- (void)signUpViewController:(PFSignUpViewController * __nonnull)signUpController didFailToSignUpWithError:(NSError * __nullable)error;
-- (void)signUpViewControllerDidCancelSignUp:(PFSignUpViewController * __nonnull)signUpController;
-- (void)logoutAction;
-- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
 
 SWIFT_CLASS("_TtC10BarterXMVP14ViewController")
 @interface ViewController : UIViewController
